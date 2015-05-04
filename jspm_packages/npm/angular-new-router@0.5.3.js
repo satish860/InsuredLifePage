@@ -1,0 +1,1 @@
+module.exports = require("npm:angular-new-router@0.5.3/dist/router.es5");

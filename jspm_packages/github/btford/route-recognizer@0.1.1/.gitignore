@@ -1,0 +1,7 @@
+/dist/*.debug.*
+/.bundle
+
+.bundle/
+bundle
+bin/
+/node_modules

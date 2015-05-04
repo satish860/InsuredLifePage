@@ -1,0 +1,39 @@
+{
+  "name": "InsuredLifePage",
+  "version": "1.0.0",
+  "description": "Insured Life Page ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ILPage"
+  ],
+  "author": "Satish",
+  "license": "ISC",
+  "devDependencies": {
+    "angular": "^1.4.0-rc.1",
+    "angular-new-router": "^0.5.3",
+    "browser-sync": "^2.6.9",
+    "del": "^1.1.1",
+    "gulp": "^3.8.11",
+    "gulp-babel": "^5.1.0",
+    "gulp-changed": "^1.2.1",
+    "gulp-plumber": "^1.0.0",
+    "gulp-sourcemaps": "^1.5.2",
+    "object.assign": "^2.0.1",
+    "run-sequence": "^1.1.0"
+  },
+  "jspm": {
+    "directories": {},
+    "dependencies": {
+      "angular": "npm:angular@1.4.0-rc.1",
+      "angular-new-router": "npm:angular-new-router@^0.5.3"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.1.13",
+      "babel-runtime": "npm:babel-runtime@^5.1.13",
+      "core-js": "npm:core-js@^0.9.4"
+    }
+  }
+}
