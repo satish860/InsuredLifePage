@@ -46,7 +46,7 @@ gulp.task('build-system',function(){
     return gulp.src(paths.source)
          .pipe(plumber())
          .pipe(changed(outputPath,{extension:'js'}))
-         .pipe(sourcemaps.init({loadMoaps:true}))
+         .pipe(sourcemaps.init({loadMaps:true}))
          .pipe(to5(assign({}, babelOptions, {modules:'system'})))
          .pipe(sourcemaps.write({includeContent: false, sourceRoot: paths.sourceMapRelativePath }))
          .pipe(gulp.dest(outputPath));
